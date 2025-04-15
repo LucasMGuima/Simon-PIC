@@ -1,0 +1,4 @@
+/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default/CMakeFiles/Simon_default_default_XC8_compile.dir
+/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default/CMakeFiles/Simon_default_default.elf.dir
+/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default/CMakeFiles/edit_cache.dir
+/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default/CMakeFiles/rebuild_cache.dir

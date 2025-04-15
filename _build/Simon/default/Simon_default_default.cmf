@@ -1,0 +1,459 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$/tmp/xcXGldOGA/driver_tmp_10.o
+end_init CODE 0 0 0 1 2 1
+$Simon_default_default.o
+cinit CODE 0 3F9 3F9 7 2 1
+text1 CODE 0 35F 35F 9A 2 1
+text2 CODE 0 1C2 1C2 42 2 1
+text3 CODE 0 18D 18D 35 2 1
+text4 CODE 0 24B 24B 48 2 1
+text5 CODE 0 16D 16D 20 2 1
+text6 CODE 0 293 293 4B 2 1
+text7 CODE 0 204 204 47 2 1
+text8 CODE 0 15A 15A 13 2 1
+maintext CODE 0 2DE 2DE 81 2 1
+cstackBANK0 BANK0 1 C C 20 1 1
+bssBANK0 BANK0 1 2C 2C 4 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 30-4D 1
+BANK0 30-4D 1
+CONST 1-159 2
+ENTRY 1-159 2
+IDLOC 2000-2003 2
+CODE 1-159 2
+SFR0 0-B 1
+SFR1 80-CD 1
+CONFIG 2007-2007 2
+EEDATA 2100-213F 2
+STRCODE 1-159 2
+STRING 1-159 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$Simon_default_default.o
+3F9 cinit CODE >279:/tmp/xcXGldOGA/driver_tmp_1.s
+3F9 cinit CODE >282:/tmp/xcXGldOGA/driver_tmp_1.s
+3F9 cinit CODE >293:/tmp/xcXGldOGA/driver_tmp_1.s
+3FA cinit CODE >294:/tmp/xcXGldOGA/driver_tmp_1.s
+3FB cinit CODE >295:/tmp/xcXGldOGA/driver_tmp_1.s
+3FC cinit CODE >296:/tmp/xcXGldOGA/driver_tmp_1.s
+3FD cinit CODE >297:/tmp/xcXGldOGA/driver_tmp_1.s
+3FE cinit CODE >303:/tmp/xcXGldOGA/driver_tmp_1.s
+3FE cinit CODE >305:/tmp/xcXGldOGA/driver_tmp_1.s
+3FF cinit CODE >306:/tmp/xcXGldOGA/driver_tmp_1.s
+15A text8 CODE >4:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+15A text8 CODE >6:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+15D text8 CODE >7:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+164 text8 CODE >8:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+168 text8 CODE >8:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+16C text8 CODE >9:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+204 text7 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+204 text7 CODE >119:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+20D text7 CODE >121:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+211 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+214 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+215 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+217 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+21B text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+21C text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+21E text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+222 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+223 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+225 text7 CODE >122:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+228 text7 CODE >123:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+22A text7 CODE >123:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+231 text7 CODE >124:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+232 text7 CODE >124:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+238 text7 CODE >124:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+23A text7 CODE >125:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+23E text7 CODE >125:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+242 text7 CODE >128:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+24A text7 CODE >129:/opt/microchip/xc8/v3.00/pic/sources/c99/common/Umul32.c
+293 text6 CODE >11:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+293 text6 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2B1 text6 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2B7 text6 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2BD text6 CODE >13:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2C8 text6 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2D1 text6 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2D7 text6 CODE >14:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+2DD text6 CODE >15:/opt/microchip/xc8/v3.00/pic/sources/c99/common/rand.c
+16D text5 CODE >11:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+16D text5 CODE >16:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+173 text5 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+176 text5 CODE >20:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+17C text5 CODE >21:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+184 text5 CODE >22:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+188 text5 CODE >22:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+18C text5 CODE >23:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c
+24B text4 CODE >3:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+24B text4 CODE >5:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+24E text4 CODE >7:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+24E text4 CODE >8:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+24F text4 CODE >9:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+250 text4 CODE >10:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+250 text4 CODE >11:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+251 text4 CODE >12:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+252 text4 CODE >13:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+252 text4 CODE >14:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+253 text4 CODE >15:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+254 text4 CODE >16:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+254 text4 CODE >17:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+255 text4 CODE >18:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+256 text4 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+25E text4 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+261 text4 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+264 text4 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+267 text4 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+26A text4 CODE >20:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+277 text4 CODE >21:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+279 text4 CODE >22:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+27A text4 CODE >23:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+27B text4 CODE >24:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+27C text4 CODE >25:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+289 text4 CODE >26:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+28E text4 CODE >26:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+292 text4 CODE >27:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+18D text3 CODE >21:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+18F text3 CODE >22:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+190 text3 CODE >27:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+192 text3 CODE >31:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+194 text3 CODE >35:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+196 text3 CODE >39:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+198 text3 CODE >43:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+19A text3 CODE >47:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+19C text3 CODE >51:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+19E text3 CODE >55:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1A0 text3 CODE >59:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1A2 text3 CODE >63:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1A4 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1A6 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1A9 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1AC text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1AF text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1B2 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1B5 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1B8 text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1BB text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1BE text3 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1C1 text3 CODE >67:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1C2 text2 CODE >6:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1C4 text2 CODE >8:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1C5 text2 CODE >9:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1C9 text2 CODE >9:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1CC text2 CODE >9:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1D8 text2 CODE >10:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1D9 text2 CODE >11:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1E0 text2 CODE >12:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1E2 text2 CODE >13:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1E9 text2 CODE >14:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1EE text2 CODE >14:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1F2 text2 CODE >15:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1F3 text2 CODE >16:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1FA text2 CODE >17:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+1FC text2 CODE >18:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+203 text2 CODE >19:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c
+35F text1 CODE >29:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+35F text1 CODE >30:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+361 text1 CODE >31:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+362 text1 CODE >33:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+362 text1 CODE >34:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+366 text1 CODE >35:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+367 text1 CODE >36:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+369 text1 CODE >37:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+36E text1 CODE >38:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+37A text1 CODE >39:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+37B text1 CODE >40:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+37E text1 CODE >43:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+37E text1 CODE >44:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+382 text1 CODE >45:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+383 text1 CODE >46:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+385 text1 CODE >47:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+38A text1 CODE >48:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+396 text1 CODE >49:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+398 text1 CODE >53:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+398 text1 CODE >54:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+39C text1 CODE >55:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+39D text1 CODE >56:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+39F text1 CODE >57:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3A4 text1 CODE >58:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B0 text1 CODE >59:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B2 text1 CODE >63:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B2 text1 CODE >64:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B6 text1 CODE >65:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B7 text1 CODE >66:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3B9 text1 CODE >67:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3BE text1 CODE >68:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3CA text1 CODE >69:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3CC text1 CODE >73:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3D4 text1 CODE >73:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3D7 text1 CODE >73:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3DA text1 CODE >73:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3DD text1 CODE >73:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3E0 text1 CODE >74:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3ED text1 CODE >75:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3EF text1 CODE >76:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F0 text1 CODE >77:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F1 text1 CODE >78:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F2 text1 CODE >31:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F2 text1 CODE >79:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F4 text1 CODE >31:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+3F8 text1 CODE >80:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c
+2DE maintext CODE >10:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2DE maintext CODE >17:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2E1 maintext CODE >18:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2E2 maintext CODE >20:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2E4 maintext CODE >23:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2E6 maintext CODE >26:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2EA maintext CODE >27:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2F8 maintext CODE >29:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+2FE maintext CODE >31:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+304 maintext CODE >33:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+30A maintext CODE >35:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+30F maintext CODE >37:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+311 maintext CODE >38:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+312 maintext CODE >39:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+314 maintext CODE >40:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+322 maintext CODE >41:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+324 maintext CODE >42:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+332 maintext CODE >43:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+334 maintext CODE >44:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+342 maintext CODE >45:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+344 maintext CODE >46:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+352 maintext CODE >47:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+353 maintext CODE >49:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+355 maintext CODE >50:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+357 maintext CODE >50:/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 0 0 ABS 0 - Simon_default_default.o
+__Hspace_0 400 0 ABS 0 - -
+__Hspace_1 30 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+_to_paralel 384 0 CODE 0 text2 Simon_default_default.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+__Hstrings 0 0 ABS 0 strings -
+tratar_entrada@cont 11 0 BANK0 1 cstackBANK0 Simon_default_default.o
+gerar_sequencia@tamanho 20 0 BANK0 1 cstackBANK0 Simon_default_default.o
+___sp 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+_main 5BC 0 CODE 0 maintext Simon_default_default.o
+_rand 526 0 CODE 0 text6 Simon_default_default.o
+_seed 2C 0 BANK0 1 bssBANK0 Simon_default_default.o
+btemp 4E 0 ABS 0 - Simon_default_default.o
+___stack_hi 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+___stack_lo 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+start 0 0 CODE 0 init /tmp/xcXGldOGA/driver_tmp_10.o
+limpar_vetor@tamanho D 0 BANK0 1 cstackBANK0 Simon_default_default.o
+_to_bits 31A 0 CODE 0 text3 Simon_default_default.o
+?___lmul C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Hpowerup 0 0 CODE 0 powerup -
+_mostrar_sequencia 496 0 CODE 0 text4 Simon_default_default.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXGldOGA/driver_tmp_10.o
+wtemp0 4E 0 ABS 0 - Simon_default_default.o
+__end_of_to_paralel 408 0 CODE 0 text2 Simon_default_default.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+mostrar_sequencia@sequencia C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+limpar_vetor@sequencia C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__end_of___lmul 496 0 CODE 0 text7 Simon_default_default.o
+gerar_sequencia@cont 23 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lmaintext 0 0 ABS 0 maintext -
+___stackhi 0 0 ABS 0 - /tmp/xcXGldOGA/driver_tmp_10.o
+___stacklo 0 0 ABS 0 - /tmp/xcXGldOGA/driver_tmp_10.o
+start_initialization 7F2 0 CODE 0 cinit Simon_default_default.o
+main@sequencia 27 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__pcstackBANK0 C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 BANK1 1 bank1 -
+__Hcinit 800 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__Hmaintext 0 0 ABS 0 maintext -
+__Hcommon 0 0 ABS 0 common -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 BANK1 1 bank1 -
+__Lcinit 7F2 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+_PORTAbits 5 0 ABS 0 - Simon_default_default.o
+_PORTBbits 6 0 ABS 0 - Simon_default_default.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hheap 0 0 HEAP 7 heap -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsivt 0 0 CODE 0 sivt -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Lheap 0 0 HEAP 7 heap -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsivt 0 0 CODE 0 sivt -
+__Ltext 0 0 ABS 0 text -
+___lmul 408 0 CODE 0 text7 Simon_default_default.o
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__S0 400 0 ABS 0 - -
+__S1 30 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+to_paralel@i E 0 BANK0 1 cstackBANK0 Simon_default_default.o
+limpar_vetor@cont F 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lintentry 0 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXGldOGA/driver_tmp_10.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+_limpar_vetor 2B4 0 CODE 0 text8 Simon_default_default.o
+__end_of_gerar_sequencia 31A 0 CODE 0 text5 Simon_default_default.o
+__pmaintext 5BC 0 CODE 0 maintext Simon_default_default.o
+___lmul@multiplier C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+?_rand 19 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lcommon 0 0 ABS 0 common -
+to_paralel@bits D 0 BANK0 1 cstackBANK0 Simon_default_default.o
+main@nivel 2B 0 BANK0 1 cstackBANK0 Simon_default_default.o
+to_bits@nivel C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+gerar_sequencia@sequencia 1F 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__end_of_to_bits 384 0 CODE 0 text3 Simon_default_default.o
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+mostrar_sequencia@tamanho D 0 BANK0 1 cstackBANK0 Simon_default_default.o
+end_of_initialization 7FC 0 CODE 0 cinit Simon_default_default.o
+_gerar_sequencia 2DA 0 CODE 0 text5 Simon_default_default.o
+__Hintentry 0 0 CODE 0 intentry -
+tratar_entrada@tamanho D 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__end_of_limpar_vetor 2DA 0 CODE 0 text8 Simon_default_default.o
+__ptext1 6BE 0 CODE 0 text1 Simon_default_default.o
+__ptext2 384 0 CODE 0 text2 Simon_default_default.o
+__ptext3 31A 0 CODE 0 text3 Simon_default_default.o
+__ptext4 496 0 CODE 0 text4 Simon_default_default.o
+__ptext5 2DA 0 CODE 0 text5 Simon_default_default.o
+__ptext6 526 0 CODE 0 text6 Simon_default_default.o
+__ptext7 408 0 CODE 0 text7 Simon_default_default.o
+__ptext8 2B4 0 CODE 0 text8 Simon_default_default.o
+mostrar_sequencia@cont 11 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+tratar_entrada@sequencia C 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+___heap_hi 0 0 ABS 0 - /tmp/xcXGldOGA/driver_tmp_10.o
+___heap_lo 0 0 ABS 0 - /tmp/xcXGldOGA/driver_tmp_10.o
+__end_of__initialization 7FC 0 CODE 0 cinit Simon_default_default.o
+_tratar_entrada 6BE 0 CODE 0 text1 Simon_default_default.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+___lmul@product 15 0 BANK0 1 cstackBANK0 Simon_default_default.o
+___lmul@multiplicand 10 0 BANK0 1 cstackBANK0 Simon_default_default.o
+__pcstackCOMMON 0 0 COMMON 1 cstackCOMMON Simon_default_default.o
+__Hend_init 2 0 CODE 0 end_init -
+__end_of_main 6BE 0 CODE 0 maintext Simon_default_default.o
+__end_of_rand 5BC 0 CODE 0 text6 Simon_default_default.o
+gerar_sequencia@num 22 0 BANK0 1 cstackBANK0 Simon_default_default.o
+_PORTB 6 0 ABS 0 - Simon_default_default.o
+_TRISA 85 0 ABS 0 - Simon_default_default.o
+_TRISB 86 0 ABS 0 - Simon_default_default.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of_mostrar_sequencia 526 0 CODE 0 text4 Simon_default_default.o
+__initialization 7F2 0 CODE 0 cinit Simon_default_default.o
+__pbssBANK0 2C 0 BANK0 1 bssBANK0 Simon_default_default.o
+__end_of_tratar_entrada 7F2 0 CODE 0 text1 Simon_default_default.o
+___int_stack_hi 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+___int_stack_lo 0 0 STACK 2 stack /tmp/xcXGldOGA/driver_tmp_10.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 4E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 3F9 7F2 7 2
+text1 0 35F 6BE 9A 2
+text2 0 1C2 384 42 2
+text3 0 18D 31A 35 2
+text4 0 24B 496 48 2
+text5 0 16D 2DA 20 2
+text6 0 293 526 4B 2
+text7 0 204 408 47 2
+text8 0 15A 2B4 13 2
+maintext 0 2DE 5BC 81 2
+cstackBANK0 1 C C 24 1
+reset_vec 0 0 0 1 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

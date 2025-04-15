@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default",
+  "command": "/opt/microchip/xc8/v3.00/bin/xc8-cc -DXPRJ_default=default -D__16F84A__ -c -mcpu=16F84A -mdfp=/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c.p1 -c /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c",
+  "file": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c",
+  "output": "CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c.p1"
+},
+{
+  "directory": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default",
+  "command": "/opt/microchip/xc8/v3.00/bin/xc8-cc -DXPRJ_default=default -D__16F84A__ -c -mcpu=16F84A -mdfp=/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c.p1 -c /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c",
+  "file": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c",
+  "output": "CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c.p1"
+},
+{
+  "directory": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default",
+  "command": "/opt/microchip/xc8/v3.00/bin/xc8-cc -DXPRJ_default=default -D__16F84A__ -c -mcpu=16F84A -mdfp=/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c.p1 -c /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c",
+  "file": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c",
+  "output": "CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c.p1"
+},
+{
+  "directory": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/_build/Simon/default",
+  "command": "/opt/microchip/xc8/v3.00/bin/xc8-cc -DXPRJ_default=default -D__16F84A__ -c -mcpu=16F84A -mdfp=/home/magui/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c.p1 -c /home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c",
+  "file": "/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c",
+  "output": "CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c.p1"
+}
+]

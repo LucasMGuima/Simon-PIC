@@ -1,0 +1,12 @@
+# ninja log v6
+405	2581	1744638090878305255	/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/out/Simon/default.elf	6851501df798023
+4	405	1744638088302332556	CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/conversor.c.p1	e743979583f3d991
+5	402	1744638088303332546	CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/gerardor.c.p1	a32254a7498efa8d
+711	2492	7662851877759864	E:/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/out/Simon/default.elf	549e518d537fe912
+4	1051	7662848812174974	CMakeFiles/Simon_default_default_XC8_compile.dir/E_/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/conversor.c.p1	37ddfa720260df79
+6	403	1744638088304332535	CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/simon.c.p1	9ab3b5f8fa54b972
+5	400	1744638088303332546	CMakeFiles/Simon_default_default_XC8_compile.dir/home/magui/Documents/Estudo/Learn/Embarcados/PIC/PIC16F84A/Projetos/Simon/src/main.c.p1	7363a13726c44ee6
+3	371	7662849935561798	CMakeFiles/Simon_default_default_XC8_compile.dir/E_/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/simon.c.p1	4dc4b8461b6cf866
+405	2581	1744638090878305255	Simon_default_default.elf	6851501df798023
+4	710	7662851853013800	CMakeFiles/Simon_default_default_XC8_compile.dir/E_/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/main.c.p1	a027566f7619ccaf
+12	695	7662774373679702	CMakeFiles/Simon_default_default_XC8_compile.dir/E_/Codigos/Learn/Embarcados/PIC/PIC16F84A/Projetos/Codigo/Simon/src/gerardor.c.p1	f6393b77025ad10
